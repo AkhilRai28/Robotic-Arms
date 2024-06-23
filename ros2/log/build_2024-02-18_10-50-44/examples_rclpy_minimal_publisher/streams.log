@@ -1,0 +1,47 @@
+[1.299s] Invoking command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[1.653s] running egg_info
+[1.654s] creating ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[1.654s] writing ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.655s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.655s] writing entry points to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.655s] writing requirements to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.655s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.656s] writing manifest file '../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.659s] reading manifest file '../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.660s] writing manifest file '../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.661s] running build
+[1.661s] running build_py
+[1.661s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build
+[1.661s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib
+[1.661s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.661s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.661s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.662s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.662s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.663s] running install
+[1.663s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.663s]   warnings.warn(
+[1.663s] running install_lib
+[1.664s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.665s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.665s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.665s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.665s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.666s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[1.666s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.667s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[1.668s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[1.668s] running install_data
+[1.669s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[1.669s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[1.669s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.669s] copying resource/examples_rclpy_minimal_publisher -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.669s] copying package.xml -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[1.669s] running install_egg_info
+[1.672s] Copying ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.1-py3.10.egg-info
+[1.673s] running install_scripts
+[1.705s] Installing publisher_local_function script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.705s] Installing publisher_member_function script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.705s] Installing publisher_old_school script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.706s] writing list of installed files to '/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/install.log'
+[1.747s] Invoked command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

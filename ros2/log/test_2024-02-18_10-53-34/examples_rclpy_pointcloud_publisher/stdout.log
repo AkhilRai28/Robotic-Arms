@@ -1,0 +1,13 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache
+rootdir: /home/akhil-rover/rover/example_ws/src/src/examples/rclpy, configfile: pytest.ini
+plugins: ament-copyright-0.12.10, launch-testing-1.0.4, ament-xmllint-0.12.10, ament-flake8-0.12.10, ament-lint-0.12.10, ament-pep257-0.12.10, launch-testing-ros-0.19.7, colcon-core-0.15.2, cov-3.0.0
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+- generated xml file: /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml -
+[33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.31s[0m[33m =========================[0m

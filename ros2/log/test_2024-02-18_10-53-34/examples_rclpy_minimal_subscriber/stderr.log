@@ -1,0 +1,7 @@
+
+[33m=============================== warnings summary ===============================[0m
+topics/minimal_subscriber/test/test_flake8.py::test_flake8
+topics/minimal_subscriber/test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html

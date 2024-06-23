@@ -1,0 +1,23 @@
+[0.972s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data
+[1.207s] running develop
+[1.208s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.208s]   warnings.warn(
+[1.209s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.209s]   warnings.warn(
+[1.318s] running egg_info
+[1.318s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.319s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.319s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.319s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.319s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.320s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.321s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.322s] running build_ext
+[1.322s] Creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[1.323s] Installing publisher_local_function script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.323s] Installing publisher_member_function script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.323s] Installing publisher_old_school script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.323s] 
+[1.323s] Installed /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher
+[1.323s] running install_data
+[1.470s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data

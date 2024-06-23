@@ -1,0 +1,161 @@
+UpdateCTestConfiguration  from :/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+Parse Config file:/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+   Site: akhil-rover
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20240218-0524 - Experimental
+UpdateCTestConfiguration  from :/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+Parse Config file:/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+Test project /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: copyright
+
+1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml"
+1: Test timeout computed to be: 200
+1: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set':
+1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml
+1: No problems found, checked 15 files
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml'
+1/6 Test #1: copyright ........................   Passed    0.40 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--include_dirs" "/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include"
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set':
+2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml --include_dirs /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include
+2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml'
+2/6 Test #2: cppcheck .........................   Passed    0.16 sec
+test 3
+    Start 3: cpplint
+
+3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml"
+3: Test timeout computed to be: 120
+3: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set':
+3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml
+3: Using '--root=/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include' argument
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/random_listener.hpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/random_talker.hpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/talker.hpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/visibility.h
+3: 
+3: Using '--root=/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src' argument
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/executor_random_order.cpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/listener.cpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/static_wait_set.cpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/talker.cpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/thread_safe_wait_set.cpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set.cpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set_composed.cpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set_random_order.cpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set_topics_and_timer.cpp
+3: 
+3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set_topics_with_different_rates.cpp
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml'
+3/6 Test #3: cpplint ..........................   Passed    0.35 sec
+test 4
+    Start 4: lint_cmake
+
+4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set':
+4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml'
+4/6 Test #4: lint_cmake .......................   Passed    0.12 sec
+test 5
+    Start 5: uncrustify
+
+5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set':
+5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml
+5: No code style divergence in file 'include/wait_set/listener.hpp'
+5: 
+5: No code style divergence in file 'include/wait_set/random_listener.hpp'
+5: 
+5: No code style divergence in file 'include/wait_set/random_talker.hpp'
+5: 
+5: No code style divergence in file 'include/wait_set/talker.hpp'
+5: 
+5: No code style divergence in file 'include/wait_set/visibility.h'
+5: 
+5: No code style divergence in file 'src/executor_random_order.cpp'
+5: 
+5: No code style divergence in file 'src/listener.cpp'
+5: 
+5: No code style divergence in file 'src/static_wait_set.cpp'
+5: 
+5: No code style divergence in file 'src/talker.cpp'
+5: 
+5: No code style divergence in file 'src/thread_safe_wait_set.cpp'
+5: 
+5: No code style divergence in file 'src/wait_set.cpp'
+5: 
+5: No code style divergence in file 'src/wait_set_composed.cpp'
+5: 
+5: No code style divergence in file 'src/wait_set_random_order.cpp'
+5: 
+5: No code style divergence in file 'src/wait_set_topics_and_timer.cpp'
+5: 
+5: No code style divergence in file 'src/wait_set_topics_with_different_rates.cpp'
+5: 
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml'
+5/6 Test #5: uncrustify .......................   Passed    0.13 sec
+test 6
+    Start 6: xmllint
+
+6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml"
+6: Test timeout computed to be: 60
+6: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set':
+6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml
+6: File 'package.xml' is valid
+6: 
+6: No problems found
+6: -- run_test.py: return code 0
+6: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml'
+6/6 Test #6: xmllint ..........................   Passed    0.85 sec
+
+[0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+
+Label Time Summary:
+copyright     =   0.40 sec*proc (1 test)
+cppcheck      =   0.16 sec*proc (1 test)
+cpplint       =   0.35 sec*proc (1 test)
+lint_cmake    =   0.12 sec*proc (1 test)
+linter        =   2.01 sec*proc (6 tests)
+uncrustify    =   0.13 sec*proc (1 test)
+xmllint       =   0.85 sec*proc (1 test)
+
+Total Test time (real) =   2.02 sec

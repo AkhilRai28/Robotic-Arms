@@ -1,0 +1,43 @@
+[1.171s] Invoking command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_service build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[1.515s] running egg_info
+[1.516s] creating ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[1.517s] writing ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[1.517s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[1.518s] writing entry points to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[1.518s] writing requirements to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[1.518s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[1.519s] writing manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.522s] reading manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.524s] writing manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[1.524s] running build
+[1.524s] running build_py
+[1.525s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build
+[1.525s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib
+[1.525s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[1.526s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[1.526s] copying examples_rclpy_minimal_service/__init__.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[1.526s] copying examples_rclpy_minimal_service/service.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[1.527s] running install
+[1.527s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.527s]   warnings.warn(
+[1.528s] running install_lib
+[1.530s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[1.530s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[1.530s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[1.531s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[1.532s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[1.533s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[1.533s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[1.534s] running install_data
+[1.535s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/ament_index
+[1.535s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[1.536s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[1.536s] copying resource/examples_rclpy_minimal_service -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[1.536s] copying package.xml -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[1.537s] running install_egg_info
+[1.540s] Copying ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.1-py3.10.egg-info
+[1.541s] running install_scripts
+[1.576s] Installing service script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[1.576s] Installing service_member_function script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[1.576s] writing list of installed files to '/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/install.log'
+[1.628s] Invoked command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_service build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

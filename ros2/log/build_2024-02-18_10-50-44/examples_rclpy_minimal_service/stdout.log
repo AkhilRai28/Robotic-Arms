@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+writing ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+writing dependency_links to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+writing entry points to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+writing requirements to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+writing top-level names to ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+writing manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+reading manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+writing manifest file '../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build
+creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib
+creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+copying examples_rclpy_minimal_service/service_member_function.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+copying examples_rclpy_minimal_service/__init__.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+copying examples_rclpy_minimal_service/service.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+running install
+running install_lib
+creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+running install_data
+creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/ament_index
+creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+copying resource/examples_rclpy_minimal_service -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+copying package.xml -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+running install_egg_info
+Copying ../../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.1-py3.10.egg-info
+running install_scripts
+Installing service script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+Installing service_member_function script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+writing list of installed files to '/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_service/install.log'

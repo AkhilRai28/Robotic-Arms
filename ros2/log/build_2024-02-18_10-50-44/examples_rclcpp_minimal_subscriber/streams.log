@@ -1,0 +1,125 @@
+[0.060s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber
+[0.121s] -- The C compiler identification is GNU 11.4.0
+[0.188s] -- The CXX compiler identification is GNU 11.4.0
+[0.196s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.281s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.281s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.285s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.382s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.696s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.742s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.748s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.757s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.799s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.883s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.886s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.004s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.040s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.103s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.115s] -- Looking for pthread.h
+[1.211s] -- Looking for pthread.h - found
+[1.211s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.295s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.296s] -- Found Threads: TRUE  
+[1.534s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.652s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.760s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.761s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.762s] -- Configured cppcheck include dirs: 
+[1.762s] -- Configured cppcheck exclude dirs and/or files: 
+[1.763s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.763s] -- Configured cpplint exclude dirs and/or files: 
+[1.763s] -- Added test 'lint_cmake' to check CMake code style
+[1.765s] -- Added test 'uncrustify' to check C / C++ code style
+[1.765s] -- Configured uncrustify additional arguments: 
+[1.766s] -- Added test 'xmllint' to check XML markup files
+[1.767s] -- Configuring done
+[1.813s] -- Generating done
+[1.816s] -- Build files have been written to: /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber
+[1.832s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber
+[1.832s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[1.895s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[12.777s] [  8%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[13.335s] [  8%] Built target subscriber_lambda
+[13.359s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[25.791s] [ 16%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[26.581s] [ 16%] Built target subscriber_member_function_with_type_adapter
+[26.608s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[35.659s] [ 25%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[36.048s] [ 25%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[36.066s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[43.091s] [ 33%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[43.717s] [ 37%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[44.313s] [ 37%] Built target subscriber_not_composable
+[45.423s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[47.548s] [ 45%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[60.163s] [ 50%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[60.875s] [ 50%] Built target subscriber_content_filtering
+[62.499s] [ 54%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[64.254s] [ 58%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[64.760s] [ 58%] Built target subscriber_member_function_with_topic_statistics
+[71.241s] [ 62%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[78.799s] [ 66%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[79.633s] [ 66%] Built target wait_set_subscriber_library
+[79.648s] [ 70%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[82.072s] [ 75%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[82.173s] [ 75%] Built target static_wait_set_subscriber
+[82.188s] [ 79%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[85.227s] [ 83%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[85.397s] [ 83%] Built target time_triggered_wait_set_subscriber
+[85.420s] [ 87%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[85.422s] [ 91%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[89.448s] [ 95%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[89.619s] [ 95%] Built target wait_set_subscriber
+[94.546s] [100%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[94.836s] [100%] Built target subscriber_member_function
+[94.844s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[94.878s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber
+[94.884s] -- Install configuration: ""
+[94.884s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[94.884s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber" to ""
+[94.884s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[94.884s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber" to ""
+[94.884s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[94.885s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber" to ""
+[94.885s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[94.890s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so" to ""
+[94.890s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[94.892s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda" to ""
+[94.892s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[94.894s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function" to ""
+[94.894s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[94.896s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics" to ""
+[94.896s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[94.899s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter" to ""
+[94.899s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[94.901s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints" to ""
+[94.901s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[94.903s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable" to ""
+[94.903s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[94.905s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering" to ""
+[94.905s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[94.905s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[94.905s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[94.906s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[94.907s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[94.907s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[94.907s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[94.908s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber

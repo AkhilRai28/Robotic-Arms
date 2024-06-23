@@ -1,0 +1,26 @@
+[1.746s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclpy_executors': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_executors/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akhil-rover/rover/example_ws/build/examples_rclpy_executors/build --no-deps install_data
+[2.273s] running develop
+[2.283s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.284s]   warnings.warn(
+[2.285s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.285s]   warnings.warn(
+[2.570s] running egg_info
+[2.570s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[2.570s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[2.570s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[2.570s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[2.570s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[2.573s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.573s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.575s] running build_ext
+[2.575s] Creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[2.576s] Installing callback_group script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.576s] Installing composed script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.576s] Installing custom_callback_group script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.576s] Installing custom_executor script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.577s] Installing listener script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.577s] Installing talker script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.577s] 
+[2.577s] Installed /home/akhil-rover/rover/example_ws/build/examples_rclpy_executors
+[2.577s] running install_data
+[2.683s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_executors/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akhil-rover/rover/example_ws/build/examples_rclpy_executors/build --no-deps install_data

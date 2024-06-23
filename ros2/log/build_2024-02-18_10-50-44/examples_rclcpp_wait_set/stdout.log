@@ -1,0 +1,123 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set
+[  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[  8%] Built target talker
+[ 12%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[ 16%] [32m[1mLinking CXX executable wait_set_listener[0m
+[ 16%] Built target wait_set_listener
+[ 20%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable wait_set[0m
+[ 25%] Built target wait_set
+[ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable wait_set_talker[0m
+[ 50%] [32m[1mLinking CXX executable static_wait_set[0m
+[ 50%] Built target wait_set_talker
+[ 50%] Built target static_wait_set
+[ 54%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[ 54%] Built target thread_safe_wait_set
+[ 58%] [32m[1mLinking CXX shared library liblistener.so[0m
+[ 58%] Built target listener
+[ 62%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable executor_random_order[0m
+[ 66%] Built target executor_random_order
+[ 70%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[ 75%] Built target wait_set_topics_with_different_rates
+[ 79%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable wait_set_composed[0m
+[ 83%] Built target wait_set_composed
+[ 87%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[ 95%] Built target wait_set_random_order
+[100%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[100%] Built target wait_set_topics_and_timer
+-- Install configuration: ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+-- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+-- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml

@@ -1,0 +1,105 @@
+[0.042s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service': AMENT_PREFIX_PATH=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_service /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.047s] UpdateCTestConfiguration  from :/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.047s] Parse Config file:/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.047s]    Site: akhil-rover
+[0.047s]    Build name: (empty)
+[0.048s]  Add coverage exclude regular expressions.
+[0.048s] Create new tag: 20240218-0524 - Experimental
+[0.048s] UpdateCTestConfiguration  from :/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.048s] Parse Config file:/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/CTestConfiguration.ini
+[0.048s] Test project /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service
+[0.048s] Constructing a list of tests
+[0.049s] Done constructing a list of tests
+[0.049s] Updating test list for fixtures
+[0.049s] Added 0 tests to meet fixture requirements
+[0.049s] Checking test dependency graph...
+[0.049s] Checking test dependency graph end
+[0.049s] test 1
+[0.049s]     Start 1: copyright
+[0.049s] 
+[0.050s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml"
+[0.050s] 1: Test timeout computed to be: 200
+[0.105s] 1: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/services/minimal_service':
+[0.105s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml
+[0.209s] 1: No problems found, checked 1 files
+[0.223s] 1: -- run_test.py: return code 0
+[0.223s] 1: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/copyright.xunit.xml'
+[0.230s] 1/6 Test #1: copyright ........................   Passed    0.18 sec
+[0.230s] test 2
+[0.230s]     Start 2: cppcheck
+[0.230s] 
+[0.230s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml"
+[0.230s] 2: Test timeout computed to be: 300
+[0.290s] 2: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/services/minimal_service':
+[0.290s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml
+[0.347s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.357s] 2: -- run_test.py: return code 0
+[0.357s] 2: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cppcheck.xunit.xml'
+[0.363s] 2/6 Test #2: cppcheck .........................   Passed    0.13 sec
+[0.363s] test 3
+[0.363s]     Start 3: cpplint
+[0.363s] 
+[0.363s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml"
+[0.364s] 3: Test timeout computed to be: 120
+[0.405s] 3: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/services/minimal_service':
+[0.405s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml
+[0.472s] 3: Using '--root=..' argument
+[0.472s] 3: 
+[0.472s] 3: Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/services/minimal_service/main.cpp
+[0.472s] 3: 
+[0.472s] 3: No problems found
+[0.481s] 3: -- run_test.py: return code 0
+[0.481s] 3: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/cpplint.xunit.xml'
+[0.487s] 3/6 Test #3: cpplint ..........................   Passed    0.12 sec
+[0.488s] test 4
+[0.488s]     Start 4: lint_cmake
+[0.488s] 
+[0.488s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml"
+[0.488s] 4: Test timeout computed to be: 60
+[0.530s] 4: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/services/minimal_service':
+[0.530s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml
+[0.580s] 4: 
+[0.580s] 4: No problems found
+[0.589s] 4: -- run_test.py: return code 0
+[0.589s] 4: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/lint_cmake.xunit.xml'
+[0.595s] 4/6 Test #4: lint_cmake .......................   Passed    0.11 sec
+[0.595s] test 5
+[0.595s]     Start 5: uncrustify
+[0.595s] 
+[0.596s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml"
+[0.596s] 5: Test timeout computed to be: 60
+[0.636s] 5: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/services/minimal_service':
+[0.636s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml
+[0.685s] 5: No code style divergence in file 'main.cpp'
+[0.685s] 5: 
+[0.685s] 5: No problems found
+[0.693s] 5: -- run_test.py: return code 0
+[0.693s] 5: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/uncrustify.xunit.xml'
+[0.702s] 5/6 Test #5: uncrustify .......................   Passed    0.11 sec
+[0.702s] test 6
+[0.702s]     Start 6: xmllint
+[0.702s] 
+[0.702s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_service" "--output-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml"
+[0.702s] 6: Test timeout computed to be: 60
+[0.743s] 6: -- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/services/minimal_service':
+[0.743s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml
+[17.583s] 6: File 'package.xml' is valid
+[17.583s] 6: 
+[17.583s] 6: No problems found
+[17.601s] 6: -- run_test.py: return code 0
+[17.601s] 6: -- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service/test_results/examples_rclcpp_minimal_service/xmllint.xunit.xml'
+[17.609s] 6/6 Test #6: xmllint ..........................   Passed   16.91 sec
+[17.610s] 
+[17.610s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[17.610s] 
+[17.610s] Label Time Summary:
+[17.610s] copyright     =   0.18 sec*proc (1 test)
+[17.610s] cppcheck      =   0.13 sec*proc (1 test)
+[17.610s] cpplint       =   0.12 sec*proc (1 test)
+[17.610s] lint_cmake    =   0.11 sec*proc (1 test)
+[17.610s] linter        =  17.56 sec*proc (6 tests)
+[17.610s] uncrustify    =   0.11 sec*proc (1 test)
+[17.610s] xmllint       =  16.91 sec*proc (1 test)
+[17.610s] 
+[17.610s] Total Test time (real) =  17.56 sec
+[17.615s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_service' returned '0': AMENT_PREFIX_PATH=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_service:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_service /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

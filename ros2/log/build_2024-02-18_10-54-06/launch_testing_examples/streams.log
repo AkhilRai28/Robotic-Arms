@@ -1,0 +1,20 @@
+[0.627s] Invoking command in '/home/akhil-rover/rover/example_ws/build/launch_testing_examples': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/launch_testing_examples/prefix_override:/home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build --no-deps install_data
+[0.806s] running develop
+[0.806s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.806s]   warnings.warn(
+[0.807s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.807s]   warnings.warn(
+[0.946s] running egg_info
+[0.947s] writing launch_testing_examples.egg-info/PKG-INFO
+[0.947s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[0.947s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[0.948s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[0.948s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[0.949s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[0.949s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[0.950s] running build_ext
+[0.951s] Creating /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[0.951s] 
+[0.951s] Installed /home/akhil-rover/rover/example_ws/build/launch_testing_examples
+[0.951s] running install_data
+[0.980s] Invoked command in '/home/akhil-rover/rover/example_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/launch_testing_examples/prefix_override:/home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build --no-deps install_data

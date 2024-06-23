@@ -1,0 +1,72 @@
+[0.166s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client
+[0.420s] -- The C compiler identification is GNU 11.4.0
+[0.611s] -- The CXX compiler identification is GNU 11.4.0
+[0.632s] -- Detecting C compiler ABI info
+[0.938s] -- Detecting C compiler ABI info - done
+[0.958s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.966s] -- Detecting C compile features
+[0.967s] -- Detecting C compile features - done
+[0.970s] -- Detecting CXX compiler ABI info
+[1.278s] -- Detecting CXX compiler ABI info - done
+[1.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.296s] -- Detecting CXX compile features
+[1.297s] -- Detecting CXX compile features - done
+[1.305s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.768s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.002s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.076s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.084s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.104s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.647s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.818s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.826s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.308s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.369s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.477s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.503s] -- Looking for pthread.h
+[3.833s] -- Looking for pthread.h - found
+[3.833s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.132s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.133s] -- Found Threads: TRUE  
+[4.558s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.752s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.753s] -- Configured cppcheck include dirs: 
+[4.754s] -- Configured cppcheck exclude dirs and/or files: 
+[4.754s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.754s] -- Configured cpplint exclude dirs and/or files: 
+[4.755s] -- Added test 'lint_cmake' to check CMake code style
+[4.756s] -- Added test 'uncrustify' to check C / C++ code style
+[4.756s] -- Configured uncrustify additional arguments: 
+[4.756s] -- Added test 'xmllint' to check XML markup files
+[4.758s] -- Configuring done
+[4.778s] -- Generating done
+[4.780s] -- Build files have been written to: /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client
+[4.801s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client
+[4.801s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[4.958s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[17.333s] [100%] [32m[1mLinking CXX executable client_main[0m
+[17.945s] [100%] Built target client_main
+[17.978s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[18.342s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client
+[18.378s] -- Install configuration: ""
+[18.378s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[18.379s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main" to ""
+[18.379s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[18.379s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[18.380s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[18.384s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[18.385s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[18.385s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[18.386s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[18.386s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[18.386s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[18.386s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[18.387s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[18.387s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[18.387s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[18.388s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[18.388s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[18.391s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_client

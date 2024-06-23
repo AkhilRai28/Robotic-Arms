@@ -1,0 +1,96 @@
+[0.132s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher
+[0.354s] -- The C compiler identification is GNU 11.4.0
+[0.535s] -- The CXX compiler identification is GNU 11.4.0
+[0.550s] -- Detecting C compiler ABI info
+[0.826s] -- Detecting C compiler ABI info - done
+[0.839s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.840s] -- Detecting C compile features
+[0.841s] -- Detecting C compile features - done
+[0.851s] -- Detecting CXX compiler ABI info
+[1.129s] -- Detecting CXX compiler ABI info - done
+[1.143s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.144s] -- Detecting CXX compile features
+[1.145s] -- Detecting CXX compile features - done
+[1.155s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.632s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.847s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.927s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.943s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.960s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.039s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.185s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.194s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.518s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.552s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.675s] -- Looking for pthread.h
+[2.975s] -- Looking for pthread.h - found
+[2.975s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.274s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.276s] -- Found Threads: TRUE  
+[3.726s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.932s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.933s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.933s] -- Configured cppcheck include dirs: 
+[3.933s] -- Configured cppcheck exclude dirs and/or files: 
+[3.934s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.934s] -- Configured cpplint exclude dirs and/or files: 
+[3.935s] -- Added test 'lint_cmake' to check CMake code style
+[3.940s] -- Added test 'uncrustify' to check C / C++ code style
+[3.940s] -- Configured uncrustify additional arguments: 
+[3.941s] -- Added test 'xmllint' to check XML markup files
+[3.942s] -- Configuring done
+[3.992s] -- Generating done
+[3.994s] -- Build files have been written to: /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher
+[4.044s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher
+[4.044s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[4.285s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[4.312s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[4.316s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[4.352s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[16.520s] [ 41%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[17.268s] [ 41%] Built target publisher_member_function_with_type_adapter
+[18.169s] [ 50%] [32m[1mLinking CXX executable publisher_lambda[0m
+[18.245s] [ 58%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[18.467s] [ 66%] [32m[1mLinking CXX executable publisher_member_function[0m
+[18.478s] [ 66%] Built target publisher_lambda
+[18.522s] [ 66%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[18.717s] [ 66%] Built target publisher_member_function
+[18.738s] [ 75%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[24.314s] [ 83%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[24.546s] [ 83%] Built target publisher_not_composable
+[24.569s] [ 91%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[30.625s] [100%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[30.894s] [100%] Built target publisher_wait_for_all_acked
+[30.910s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[30.957s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher
+[30.969s] -- Install configuration: ""
+[30.970s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[30.971s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[30.971s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[30.972s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[30.972s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[30.973s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter" to ""
+[30.973s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[30.974s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints" to ""
+[30.975s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[30.976s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked" to ""
+[30.977s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[30.978s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[30.978s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[30.978s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[30.979s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[30.979s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[30.979s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[30.979s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[30.979s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[30.979s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[30.980s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[30.980s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[30.980s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[30.980s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[30.980s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[30.980s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[30.980s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[30.991s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher

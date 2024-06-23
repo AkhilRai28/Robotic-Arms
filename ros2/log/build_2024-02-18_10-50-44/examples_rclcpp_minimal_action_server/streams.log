@@ -1,0 +1,78 @@
+[0.040s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.258s] -- The CXX compiler identification is GNU 11.4.0
+[0.266s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.450s] -- Detecting CXX compiler ABI info - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.460s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.462s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.656s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.760s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.803s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.809s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.820s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.837s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.057s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.124s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.126s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.226s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.253s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.311s] -- Looking for pthread.h
+[1.388s] -- Looking for pthread.h - found
+[1.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.457s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.458s] -- Found Threads: TRUE  
+[1.650s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.692s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.799s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.805s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.807s] -- Configured cppcheck include dirs: 
+[1.807s] -- Configured cppcheck exclude dirs and/or files: 
+[1.808s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.808s] -- Configured cpplint exclude dirs and/or files: 
+[1.809s] -- Added test 'lint_cmake' to check CMake code style
+[1.811s] -- Added test 'uncrustify' to check C / C++ code style
+[1.812s] -- Configured uncrustify additional arguments: 
+[1.814s] -- Added test 'xmllint' to check XML markup files
+[1.816s] -- Configuring done
+[1.839s] -- Generating done
+[1.842s] -- Build files have been written to: /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server
+[1.856s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server
+[1.863s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server -- -j4 -l4
+[1.957s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[1.977s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[14.472s] [ 75%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[15.164s] [ 75%] Built target action_server_member_functions
+[16.316s] [100%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[16.811s] [100%] Built target action_server_not_composable
+[16.850s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server -- -j4 -l4
+[17.159s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server
+[17.179s] -- Install configuration: ""
+[17.180s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[17.184s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable" to ""
+[17.184s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[17.185s] -- Set runtime path of "/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions" to ""
+[17.186s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[17.187s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[17.188s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[17.191s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[17.192s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[17.192s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[17.193s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[17.193s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[17.194s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[17.194s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[17.195s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[17.195s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[17.195s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[17.196s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[17.196s] -- Installing: /home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[17.199s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server

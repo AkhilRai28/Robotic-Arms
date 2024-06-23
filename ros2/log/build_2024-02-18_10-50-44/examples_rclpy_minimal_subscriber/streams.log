@@ -1,0 +1,47 @@
+[1.191s] Invoking command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[1.550s] running egg_info
+[1.551s] creating ../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info
+[1.551s] writing ../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[1.552s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[1.552s] writing entry points to ../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[1.552s] writing requirements to ../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[1.552s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[1.553s] writing manifest file '../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.560s] reading manifest file '../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.562s] writing manifest file '../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[1.562s] running build
+[1.562s] running build_py
+[1.562s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build
+[1.562s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib
+[1.563s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[1.563s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[1.563s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[1.565s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[1.565s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[1.566s] running install
+[1.566s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.566s]   warnings.warn(
+[1.567s] running install_lib
+[1.572s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[1.572s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[1.572s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[1.572s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[1.573s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[1.574s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-310.pyc
+[1.574s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.575s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-310.pyc
+[1.576s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-310.pyc
+[1.576s] running install_data
+[1.577s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[1.578s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[1.578s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[1.578s] copying resource/examples_rclpy_minimal_subscriber -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[1.579s] copying package.xml -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[1.579s] running install_egg_info
+[1.582s] Copying ../../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.1-py3.10.egg-info
+[1.583s] running install_scripts
+[1.616s] Installing subscriber_lambda script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.616s] Installing subscriber_member_function script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.617s] Installing subscriber_old_school script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[1.617s] writing list of installed files to '/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[1.661s] Invoked command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

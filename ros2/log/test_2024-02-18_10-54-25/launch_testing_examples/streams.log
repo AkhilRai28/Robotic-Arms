@@ -1,0 +1,28 @@
+[0.585s] Invoking command in '/home/akhil-rover/rover/example_ws/src/src/examples/launch_testing/launch_testing_examples': AMENT_PREFIX_PATH=/home/akhil-rover/rover/example_ws/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/akhil-rover/rover/example_ws/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/home/akhil-rover/rover/example_ws/build/launch_testing_examples/.pytest_cache PYTHONPATH=/home/akhil-rover/rover/example_ws/build/launch_testing_examples:/home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.860s] [1m============================= test session starts ==============================[0m
+[0.860s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.863s] cachedir: /home/akhil-rover/rover/example_ws/build/launch_testing_examples/.pytest_cache
+[0.863s] rootdir: /home/akhil-rover/rover/example_ws/src/src/examples/launch_testing/launch_testing_examples
+[0.863s] plugins: ament-copyright-0.12.10, launch-testing-1.0.4, ament-xmllint-0.12.10, ament-flake8-0.12.10, ament-lint-0.12.10, ament-pep257-0.12.10, launch-testing-ros-0.19.7, colcon-core-0.15.2, cov-3.0.0
+[1.044s] [1mcollecting ... [0m[1m
+[1.044s] collected 9 items                                                              [0m
+[1.044s] 
+[3.203s] launch_testing_examples/check_msgs_launch_test.py [32m.[0m[32m                      [ 11%][0m
+[7.011s] launch_testing_examples/check_multiple_nodes_launch_test.py [32m.[0m[32m            [ 22%][0m
+[12.362s] launch_testing_examples/check_node_launch_test.py [32m.[0m[32m                      [ 33%][0m
+[12.374s] launch_testing_examples/hello_world_launch_test.py [32m.[0m[32m                     [ 44%][0m
+[15.619s] launch_testing_examples/record_rosbag_launch_test.py [32m.[0m[32m                   [ 55%][0m
+[16.003s] launch_testing_examples/set_param_launch_test.py [32m.[0m[32m                       [ 66%][0m
+[16.178s] test/test_copyright.py [32m.[0m[32m                                                 [ 77%][0m
+[16.268s] test/test_flake8.py [32m.[0m[33m                                                    [ 88%][0m
+[16.296s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[16.296s] 
+[16.296s] [33m=============================== warnings summary ===============================[0m
+[16.296s] test/test_flake8.py::test_flake8
+[16.296s] test/test_flake8.py::test_flake8
+[16.296s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[16.296s] 
+[16.296s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[16.296s] - generated xml file: /home/akhil-rover/rover/example_ws/build/launch_testing_examples/pytest.xml -
+[16.296s] [33m======================== [32m9 passed[0m, [33m[1m2 warnings[0m[33m in 15.44s[0m[33m ========================[0m
+[16.490s] Invoked command in '/home/akhil-rover/rover/example_ws/src/src/examples/launch_testing/launch_testing_examples' returned '0': AMENT_PREFIX_PATH=/home/akhil-rover/rover/example_ws/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/akhil-rover/rover/example_ws/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/home/akhil-rover/rover/example_ws/build/launch_testing_examples/.pytest_cache PYTHONPATH=/home/akhil-rover/rover/example_ws/build/launch_testing_examples:/home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

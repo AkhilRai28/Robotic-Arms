@@ -1,0 +1,39 @@
+[0.959s] Invoking command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/topics/pointcloud_publisher': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed
+[1.309s] running egg_info
+[1.310s] creating ../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info
+[1.310s] writing ../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[1.310s] writing dependency_links to ../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[1.310s] writing entry points to ../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[1.310s] writing requirements to ../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[1.311s] writing top-level names to ../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[1.311s] writing manifest file '../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[1.314s] reading manifest file '../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[1.315s] writing manifest file '../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[1.316s] running build
+[1.316s] running build_py
+[1.316s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/build
+[1.316s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/build/lib
+[1.316s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[1.316s] copying examples_rclpy_pointcloud_publisher/__init__.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[1.316s] copying examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[1.318s] running install
+[1.318s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.319s]   warnings.warn(
+[1.319s] running install_lib
+[1.320s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[1.320s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/__init__.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[1.320s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher
+[1.321s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/__init__.py to __init__.cpython-310.pyc
+[1.321s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py to pointcloud_publisher.cpython-310.pyc
+[1.322s] running install_data
+[1.323s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[1.323s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[1.323s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[1.323s] copying resource/examples_rclpy_pointcloud_publisher -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[1.323s] copying package.xml -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[1.324s] running install_egg_info
+[1.326s] Copying ../../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info to /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher-0.15.1-py3.10.egg-info
+[1.327s] running install_scripts
+[1.359s] Installing pointcloud_publisher script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[1.360s] writing list of installed files to '/home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/install.log'
+[1.686s] Invoked command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/topics/pointcloud_publisher' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed

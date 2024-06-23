@@ -1,0 +1,37 @@
+running egg_info
+creating ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info
+writing ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+writing requirements to ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+writing top-level names to ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+writing manifest file '../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+reading manifest file '../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/build
+creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/build/lib
+creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+copying examples_rclpy_guard_conditions/__init__.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-310.pyc
+running install_data
+creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/share/ament_index
+creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+copying resource/examples_rclpy_guard_conditions -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+copying package.xml -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+running install_egg_info
+Copying ../../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.1-py3.10.egg-info
+running install_scripts
+Installing trigger_guard_condition script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+writing list of installed files to '/home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/install.log'

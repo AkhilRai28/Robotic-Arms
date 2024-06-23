@@ -1,0 +1,53 @@
+[1.049s] Invoking command in '/home/akhil-rover/rover/example_ws/src/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/launch_testing_examples/prefix_override:/home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/launch_testing_examples build --build-base /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build install --record /home/akhil-rover/rover/example_ws/build/launch_testing_examples/install.log --single-version-externally-managed
+[1.392s] running egg_info
+[1.392s] creating ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info
+[1.393s] writing ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[1.393s] writing dependency_links to ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[1.393s] writing entry points to ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[1.393s] writing requirements to ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[1.393s] writing top-level names to ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[1.394s] writing manifest file '../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[1.401s] reading manifest file '../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[1.403s] writing manifest file '../../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[1.403s] running build
+[1.403s] running build_py
+[1.403s] creating /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build
+[1.403s] creating /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib
+[1.403s] creating /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[1.403s] copying launch_testing_examples/__init__.py -> /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[1.404s] copying launch_testing_examples/check_node_launch_test.py -> /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[1.404s] copying launch_testing_examples/record_rosbag_launch_test.py -> /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[1.404s] copying launch_testing_examples/set_param_launch_test.py -> /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[1.404s] copying launch_testing_examples/check_msgs_launch_test.py -> /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[1.404s] copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[1.404s] copying launch_testing_examples/hello_world_launch_test.py -> /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[1.405s] running install
+[1.405s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.405s]   warnings.warn(
+[1.406s] running install_lib
+[1.407s] creating /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[1.407s] copying /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples/__init__.py -> /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[1.407s] copying /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_node_launch_test.py -> /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[1.407s] copying /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples/record_rosbag_launch_test.py -> /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[1.407s] copying /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples/set_param_launch_test.py -> /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[1.407s] copying /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_msgs_launch_test.py -> /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[1.408s] copying /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[1.408s] copying /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build/lib/launch_testing_examples/hello_world_launch_test.py -> /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[1.408s] byte-compiling /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/__init__.py to __init__.cpython-310.pyc
+[1.408s] byte-compiling /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_node_launch_test.py to check_node_launch_test.cpython-310.pyc
+[1.409s] byte-compiling /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/record_rosbag_launch_test.py to record_rosbag_launch_test.cpython-310.pyc
+[1.410s] byte-compiling /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/set_param_launch_test.py to set_param_launch_test.cpython-310.pyc
+[1.410s] byte-compiling /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_msgs_launch_test.py to check_msgs_launch_test.cpython-310.pyc
+[1.410s] byte-compiling /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_multiple_nodes_launch_test.py to check_multiple_nodes_launch_test.cpython-310.pyc
+[1.412s] byte-compiling /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/hello_world_launch_test.py to hello_world_launch_test.cpython-310.pyc
+[1.412s] running install_data
+[1.413s] creating /home/akhil-rover/rover/example_ws/install/launch_testing_examples/share/ament_index
+[1.413s] creating /home/akhil-rover/rover/example_ws/install/launch_testing_examples/share/ament_index/resource_index
+[1.413s] creating /home/akhil-rover/rover/example_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[1.413s] copying resource/launch_testing_examples -> /home/akhil-rover/rover/example_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[1.413s] copying package.xml -> /home/akhil-rover/rover/example_ws/install/launch_testing_examples/share/launch_testing_examples
+[1.414s] running install_egg_info
+[1.416s] Copying ../../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.1-py3.10.egg-info
+[1.417s] running install_scripts
+[1.449s] writing list of installed files to '/home/akhil-rover/rover/example_ws/build/launch_testing_examples/install.log'
+[1.487s] Invoked command in '/home/akhil-rover/rover/example_ws/src/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/launch_testing_examples/prefix_override:/home/akhil-rover/rover/example_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/launch_testing_examples build --build-base /home/akhil-rover/rover/example_ws/build/launch_testing_examples/build install --record /home/akhil-rover/rover/example_ws/build/launch_testing_examples/install.log --single-version-externally-managed

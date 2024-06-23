@@ -1,0 +1,51 @@
+[0.899s] Invoking command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed
+[1.220s] running egg_info
+[1.221s] creating ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info
+[1.221s] writing ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[1.222s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[1.222s] writing entry points to ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[1.223s] writing requirements to ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[1.223s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[1.223s] writing manifest file '../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.231s] reading manifest file '../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.233s] writing manifest file '../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.233s] running build
+[1.233s] running build_py
+[1.233s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build
+[1.234s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib
+[1.234s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.234s] copying examples_rclpy_minimal_action_client/__init__.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.234s] copying examples_rclpy_minimal_action_client/client_not_composable.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.235s] copying examples_rclpy_minimal_action_client/client_asyncio.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.235s] copying examples_rclpy_minimal_action_client/client_cancel.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.236s] copying examples_rclpy_minimal_action_client/client.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.236s] running install
+[1.237s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.237s]   warnings.warn(
+[1.237s] running install_lib
+[1.239s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[1.239s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/__init__.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[1.239s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/client_not_composable.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[1.239s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/client_asyncio.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[1.240s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/client_cancel.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[1.241s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/client.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[1.242s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/__init__.py to __init__.cpython-310.pyc
+[1.242s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/client_not_composable.py to client_not_composable.cpython-310.pyc
+[1.243s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/client_asyncio.py to client_asyncio.cpython-310.pyc
+[1.244s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/client_cancel.py to client_cancel.cpython-310.pyc
+[1.245s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/client.py to client.cpython-310.pyc
+[1.246s] running install_data
+[1.247s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/share/ament_index
+[1.247s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index
+[1.247s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[1.247s] copying resource/examples_rclpy_minimal_action_client -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[1.247s] copying package.xml -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/share/examples_rclpy_minimal_action_client
+[1.248s] running install_egg_info
+[1.250s] Copying ../../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.1-py3.10.egg-info
+[1.251s] running install_scripts
+[1.281s] Installing client script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.282s] Installing client_asyncio script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.282s] Installing client_cancel script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.282s] Installing client_not_composable script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[1.283s] writing list of installed files to '/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/install.log'
+[1.324s] Invoked command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed

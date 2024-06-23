@@ -1,0 +1,55 @@
+[0.916s] Invoking command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[1.223s] running egg_info
+[1.224s] creating ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info
+[1.225s] writing ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[1.225s] writing dependency_links to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[1.226s] writing entry points to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[1.226s] writing requirements to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[1.226s] writing top-level names to ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[1.227s] writing manifest file '../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[1.234s] reading manifest file '../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[1.236s] writing manifest file '../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[1.236s] running build
+[1.236s] running build_py
+[1.237s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build
+[1.237s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib
+[1.237s] creating /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.237s] copying examples_rclpy_minimal_action_server/server_defer.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.238s] copying examples_rclpy_minimal_action_server/__init__.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.238s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.238s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.239s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.239s] copying examples_rclpy_minimal_action_server/server.py -> /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[1.240s] running install
+[1.240s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.240s]   warnings.warn(
+[1.241s] running install_lib
+[1.242s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[1.242s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[1.243s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[1.243s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[1.243s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[1.243s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[1.244s] copying /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[1.245s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-310.pyc
+[1.246s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-310.pyc
+[1.246s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-310.pyc
+[1.247s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-310.pyc
+[1.248s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-310.pyc
+[1.249s] byte-compiling /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-310.pyc
+[1.250s] running install_data
+[1.251s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/share/ament_index
+[1.251s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[1.251s] creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[1.252s] copying resource/examples_rclpy_minimal_action_server -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[1.252s] copying package.xml -> /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[1.252s] running install_egg_info
+[1.255s] Copying ../../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.1-py3.10.egg-info
+[1.256s] running install_scripts
+[1.284s] Installing server script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.285s] Installing server_defer script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.285s] Installing server_not_composable script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.285s] Installing server_queue_goals script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.286s] Installing server_single_goal script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.286s] writing list of installed files to '/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/install.log'
+[1.326s] Invoked command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/build install --record /home/akhil-rover/rover/example_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed

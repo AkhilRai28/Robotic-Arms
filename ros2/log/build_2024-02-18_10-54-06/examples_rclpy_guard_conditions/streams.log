@@ -1,0 +1,21 @@
+[1.222s] Invoking command in '/home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/build --no-deps install_data
+[1.623s] running develop
+[1.625s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.626s]   warnings.warn(
+[1.652s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.653s]   warnings.warn(
+[1.768s] running egg_info
+[1.768s] writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[1.768s] writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[1.768s] writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[1.768s] writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+[1.768s] writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+[1.770s] reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[1.770s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[1.771s] running build_ext
+[1.771s] Creating /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[1.772s] Installing trigger_guard_condition script to /home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[1.772s] 
+[1.772s] Installed /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions
+[1.772s] running install_data
+[2.011s] Invoked command in '/home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/akhil-rover/rover/example_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/akhil-rover/rover/example_ws/build/examples_rclpy_guard_conditions/build --no-deps install_data
