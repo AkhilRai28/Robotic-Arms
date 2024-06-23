@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_composition.cpplint"
+  tests="8"
+  failures="0"
+  errors="0"
+  time="0.071"
+>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp"
+    classname="examples_rclcpp_minimal_composition.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp"
+    classname="examples_rclcpp_minimal_composition.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/visibility.h"
+    classname="examples_rclcpp_minimal_composition.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/composed.cpp"
+    classname="examples_rclcpp_minimal_composition.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp"
+    classname="examples_rclcpp_minimal_composition.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/standalone_publisher.cpp"
+    classname="examples_rclcpp_minimal_composition.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/standalone_subscriber.cpp"
+    classname="examples_rclcpp_minimal_composition.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp"
+    classname="examples_rclcpp_minimal_composition.cpplint"/>
+  <system-out>Checked files:
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/visibility.h
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/composed.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/standalone_publisher.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/standalone_subscriber.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp</system-out>
+</testsuite>

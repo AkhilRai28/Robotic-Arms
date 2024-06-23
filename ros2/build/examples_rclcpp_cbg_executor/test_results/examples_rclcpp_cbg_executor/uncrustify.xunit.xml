@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_cbg_executor.uncrustify"
+  tests="8"
+  failures="0"
+  errors="0"
+  time="0.015"
+>
+  <testcase
+    name="include/examples_rclcpp_cbg_executor/ping_node.hpp"
+    classname="examples_rclcpp_cbg_executor.uncrustify"/>
+  <testcase
+    name="include/examples_rclcpp_cbg_executor/pong_node.hpp"
+    classname="examples_rclcpp_cbg_executor.uncrustify"/>
+  <testcase
+    name="src/examples_rclcpp_cbg_executor/ping_node.cpp"
+    classname="examples_rclcpp_cbg_executor.uncrustify"/>
+  <testcase
+    name="src/examples_rclcpp_cbg_executor/pong_node.cpp"
+    classname="examples_rclcpp_cbg_executor.uncrustify"/>
+  <testcase
+    name="src/examples_rclcpp_cbg_executor/utilities.hpp"
+    classname="examples_rclcpp_cbg_executor.uncrustify"/>
+  <testcase
+    name="src/ping.cpp"
+    classname="examples_rclcpp_cbg_executor.uncrustify"/>
+  <testcase
+    name="src/ping_pong.cpp"
+    classname="examples_rclcpp_cbg_executor.uncrustify"/>
+  <testcase
+    name="src/pong.cpp"
+    classname="examples_rclcpp_cbg_executor.uncrustify"/>
+  <system-out>Checked files:
+* include/examples_rclcpp_cbg_executor/ping_node.hpp
+* include/examples_rclcpp_cbg_executor/pong_node.hpp
+* src/examples_rclcpp_cbg_executor/ping_node.cpp
+* src/examples_rclcpp_cbg_executor/pong_node.cpp
+* src/examples_rclcpp_cbg_executor/utilities.hpp
+* src/ping.cpp
+* src/ping_pong.cpp
+* src/pong.cpp</system-out>
+</testsuite>

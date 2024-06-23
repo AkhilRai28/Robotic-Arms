@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_client':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cpplint.xunit.xml
+
+Using '--root=..' argument
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_client/member_functions.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_client/not_composable.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_cancel.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_feedback.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cpplint.xunit.xml'

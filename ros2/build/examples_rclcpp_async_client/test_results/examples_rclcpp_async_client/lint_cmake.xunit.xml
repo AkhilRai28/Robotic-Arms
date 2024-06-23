@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_async_client.lint_cmake"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.001"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="examples_rclcpp_async_client.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt</system-out>
+</testsuite>

@@ -1,0 +1,38 @@
+-- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml
+
+No code style divergence in file 'include/wait_set/listener.hpp'
+
+No code style divergence in file 'include/wait_set/random_listener.hpp'
+
+No code style divergence in file 'include/wait_set/random_talker.hpp'
+
+No code style divergence in file 'include/wait_set/talker.hpp'
+
+No code style divergence in file 'include/wait_set/visibility.h'
+
+No code style divergence in file 'src/executor_random_order.cpp'
+
+No code style divergence in file 'src/listener.cpp'
+
+No code style divergence in file 'src/static_wait_set.cpp'
+
+No code style divergence in file 'src/talker.cpp'
+
+No code style divergence in file 'src/thread_safe_wait_set.cpp'
+
+No code style divergence in file 'src/wait_set.cpp'
+
+No code style divergence in file 'src/wait_set_composed.cpp'
+
+No code style divergence in file 'src/wait_set_random_order.cpp'
+
+No code style divergence in file 'src/wait_set_topics_and_timer.cpp'
+
+No code style divergence in file 'src/wait_set_topics_with_different_rates.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml'

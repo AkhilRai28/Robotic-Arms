@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_action_server.cpplint"
+  tests="2"
+  failures="0"
+  errors="0"
+  time="0.079"
+>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_server/member_functions.cpp"
+    classname="examples_rclcpp_minimal_action_server.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_server/not_composable.cpp"
+    classname="examples_rclcpp_minimal_action_server.cpplint"/>
+  <system-out>Checked files:
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_server/member_functions.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_server/not_composable.cpp</system-out>
+</testsuite>

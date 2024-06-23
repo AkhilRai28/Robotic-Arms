@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_publisher.uncrustify"
+  tests="6"
+  failures="0"
+  errors="0"
+  time="0.015"
+>
+  <testcase
+    name="lambda.cpp"
+    classname="examples_rclcpp_minimal_publisher.uncrustify"/>
+  <testcase
+    name="member_function.cpp"
+    classname="examples_rclcpp_minimal_publisher.uncrustify"/>
+  <testcase
+    name="member_function_with_type_adapter.cpp"
+    classname="examples_rclcpp_minimal_publisher.uncrustify"/>
+  <testcase
+    name="member_function_with_unique_network_flow_endpoints.cpp"
+    classname="examples_rclcpp_minimal_publisher.uncrustify"/>
+  <testcase
+    name="member_function_with_wait_for_all_acked.cpp"
+    classname="examples_rclcpp_minimal_publisher.uncrustify"/>
+  <testcase
+    name="not_composable.cpp"
+    classname="examples_rclcpp_minimal_publisher.uncrustify"/>
+  <system-out>Checked files:
+* lambda.cpp
+* member_function.cpp
+* member_function_with_type_adapter.cpp
+* member_function_with_unique_network_flow_endpoints.cpp
+* member_function_with_wait_for_all_acked.cpp
+* not_composable.cpp</system-out>
+</testsuite>

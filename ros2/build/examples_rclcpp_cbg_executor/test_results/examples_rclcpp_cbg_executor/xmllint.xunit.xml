@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_cbg_executor.xmllint"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="21.933"
+>
+  <testcase
+    name="package.xml"
+    classname="examples_rclcpp_cbg_executor.xmllint"/>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>

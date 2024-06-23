@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_composition.uncrustify"
+  tests="8"
+  failures="0"
+  errors="0"
+  time="0.009"
+>
+  <testcase
+    name="include/minimal_composition/publisher_node.hpp"
+    classname="examples_rclcpp_minimal_composition.uncrustify"/>
+  <testcase
+    name="include/minimal_composition/subscriber_node.hpp"
+    classname="examples_rclcpp_minimal_composition.uncrustify"/>
+  <testcase
+    name="include/minimal_composition/visibility.h"
+    classname="examples_rclcpp_minimal_composition.uncrustify"/>
+  <testcase
+    name="src/composed.cpp"
+    classname="examples_rclcpp_minimal_composition.uncrustify"/>
+  <testcase
+    name="src/publisher_node.cpp"
+    classname="examples_rclcpp_minimal_composition.uncrustify"/>
+  <testcase
+    name="src/standalone_publisher.cpp"
+    classname="examples_rclcpp_minimal_composition.uncrustify"/>
+  <testcase
+    name="src/standalone_subscriber.cpp"
+    classname="examples_rclcpp_minimal_composition.uncrustify"/>
+  <testcase
+    name="src/subscriber_node.cpp"
+    classname="examples_rclcpp_minimal_composition.uncrustify"/>
+  <system-out>Checked files:
+* include/minimal_composition/publisher_node.hpp
+* include/minimal_composition/subscriber_node.hpp
+* include/minimal_composition/visibility.h
+* src/composed.cpp
+* src/publisher_node.cpp
+* src/standalone_publisher.cpp
+* src/standalone_subscriber.cpp
+* src/subscriber_node.cpp</system-out>
+</testsuite>

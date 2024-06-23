@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: examples-rclpy-minimal-subscriber
+Version: 0.15.1
+Summary: Examples of minimal subscribers using rclpy.
+Home-page: UNKNOWN
+Author: Mikael Arguedas
+Author-email: mikael@osrfoundation.org
+Maintainer: Aditya Pande, Shane Loretz
+Maintainer-email: aditya.pande@openrobotics.org, shane@openrobotics.org
+License: Apache License, Version 2.0
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

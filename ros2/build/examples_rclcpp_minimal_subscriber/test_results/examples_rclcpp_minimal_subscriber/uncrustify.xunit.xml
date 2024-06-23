@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_subscriber.uncrustify"
+  tests="10"
+  failures="0"
+  errors="0"
+  time="0.012"
+>
+  <testcase
+    name="content_filtering.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <testcase
+    name="lambda.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <testcase
+    name="member_function.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <testcase
+    name="member_function_with_topic_statistics.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <testcase
+    name="member_function_with_type_adapter.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <testcase
+    name="member_function_with_unique_network_flow_endpoints.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <testcase
+    name="not_composable.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <testcase
+    name="static_wait_set_subscriber.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <testcase
+    name="time_triggered_wait_set_subscriber.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <testcase
+    name="wait_set_subscriber.cpp"
+    classname="examples_rclcpp_minimal_subscriber.uncrustify"/>
+  <system-out>Checked files:
+* content_filtering.cpp
+* lambda.cpp
+* member_function.cpp
+* member_function_with_topic_statistics.cpp
+* member_function_with_type_adapter.cpp
+* member_function_with_unique_network_flow_endpoints.cpp
+* not_composable.cpp
+* static_wait_set_subscriber.cpp
+* time_triggered_wait_set_subscriber.cpp
+* wait_set_subscriber.cpp</system-out>
+</testsuite>

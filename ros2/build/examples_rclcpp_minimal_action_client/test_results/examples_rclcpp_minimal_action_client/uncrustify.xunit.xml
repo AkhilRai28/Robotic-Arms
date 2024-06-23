@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_action_client.uncrustify"
+  tests="4"
+  failures="0"
+  errors="0"
+  time="0.015"
+>
+  <testcase
+    name="member_functions.cpp"
+    classname="examples_rclcpp_minimal_action_client.uncrustify"/>
+  <testcase
+    name="not_composable.cpp"
+    classname="examples_rclcpp_minimal_action_client.uncrustify"/>
+  <testcase
+    name="not_composable_with_cancel.cpp"
+    classname="examples_rclcpp_minimal_action_client.uncrustify"/>
+  <testcase
+    name="not_composable_with_feedback.cpp"
+    classname="examples_rclcpp_minimal_action_client.uncrustify"/>
+  <system-out>Checked files:
+* member_functions.cpp
+* not_composable.cpp
+* not_composable_with_cancel.cpp
+* not_composable_with_feedback.cpp</system-out>
+</testsuite>

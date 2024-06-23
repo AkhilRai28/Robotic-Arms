@@ -1,0 +1,16 @@
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+/home/akhil-rover/rover/example_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml

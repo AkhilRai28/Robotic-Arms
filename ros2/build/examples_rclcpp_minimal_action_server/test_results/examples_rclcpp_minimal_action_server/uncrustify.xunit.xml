@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_action_server.uncrustify"
+  tests="2"
+  failures="0"
+  errors="0"
+  time="0.010"
+>
+  <testcase
+    name="member_functions.cpp"
+    classname="examples_rclcpp_minimal_action_server.uncrustify"/>
+  <testcase
+    name="not_composable.cpp"
+    classname="examples_rclcpp_minimal_action_server.uncrustify"/>
+  <system-out>Checked files:
+* member_functions.cpp
+* not_composable.cpp</system-out>
+</testsuite>

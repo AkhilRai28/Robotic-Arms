@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/actions/minimal_action_server':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/lint_cmake.xunit.xml'

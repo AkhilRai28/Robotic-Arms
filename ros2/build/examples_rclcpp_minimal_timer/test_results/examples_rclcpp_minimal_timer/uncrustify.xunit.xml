@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_timer.uncrustify"
+  tests="2"
+  failures="0"
+  errors="0"
+  time="0.004"
+>
+  <testcase
+    name="lambda.cpp"
+    classname="examples_rclcpp_minimal_timer.uncrustify"/>
+  <testcase
+    name="member_function.cpp"
+    classname="examples_rclcpp_minimal_timer.uncrustify"/>
+  <system-out>Checked files:
+* lambda.cpp
+* member_function.cpp</system-out>
+</testsuite>

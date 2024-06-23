@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: examples-rclpy-minimal-action-client
+Version: 0.15.1
+Summary: Examples of action clients using rclpy.
+Home-page: UNKNOWN
+Author: Jacob Perron
+Author-email: jacob@openrobotics.org
+Maintainer: Aditya Pande, Shane Loretz
+Maintainer-email: aditya.pande@openrobotics.org, shane@openrobotics.org
+License: Apache License, Version 2.0
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

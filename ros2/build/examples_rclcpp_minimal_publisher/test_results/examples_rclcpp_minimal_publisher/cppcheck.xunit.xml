@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_publisher.cppcheck"
+  tests="6"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="6"
+>
+  <testcase
+    name="lambda.cpp"
+    classname="examples_rclcpp_minimal_publisher.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="member_function.cpp"
+    classname="examples_rclcpp_minimal_publisher.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="member_function_with_type_adapter.cpp"
+    classname="examples_rclcpp_minimal_publisher.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="member_function_with_unique_network_flow_endpoints.cpp"
+    classname="examples_rclcpp_minimal_publisher.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="member_function_with_wait_for_all_acked.cpp"
+    classname="examples_rclcpp_minimal_publisher.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="not_composable.cpp"
+    classname="examples_rclcpp_minimal_publisher.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

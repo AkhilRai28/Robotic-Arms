@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml
+
+No problems found, checked 8 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_client.uncrustify"
+  tests="1"
+  failures="0"
+  errors="0"
+  time="0.007"
+>
+  <testcase
+    name="main.cpp"
+    classname="examples_rclcpp_minimal_client.uncrustify"/>
+  <system-out>Checked files:
+* main.cpp</system-out>
+</testsuite>

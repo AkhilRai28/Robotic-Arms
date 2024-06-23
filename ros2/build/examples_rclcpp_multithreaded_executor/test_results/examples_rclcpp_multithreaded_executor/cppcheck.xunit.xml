@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_multithreaded_executor.cppcheck"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="1"
+>
+  <testcase
+    name="multithreaded_executor.cpp"
+    classname="examples_rclcpp_multithreaded_executor.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

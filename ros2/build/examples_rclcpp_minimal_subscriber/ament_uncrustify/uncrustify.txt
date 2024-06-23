@@ -1,0 +1,28 @@
+-- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/uncrustify.xunit.xml
+
+No code style divergence in file 'content_filtering.cpp'
+
+No code style divergence in file 'lambda.cpp'
+
+No code style divergence in file 'member_function.cpp'
+
+No code style divergence in file 'member_function_with_topic_statistics.cpp'
+
+No code style divergence in file 'member_function_with_type_adapter.cpp'
+
+No code style divergence in file 'member_function_with_unique_network_flow_endpoints.cpp'
+
+No code style divergence in file 'not_composable.cpp'
+
+No code style divergence in file 'static_wait_set_subscriber.cpp'
+
+No code style divergence in file 'time_triggered_wait_set_subscriber.cpp'
+
+No code style divergence in file 'wait_set_subscriber.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/uncrustify.xunit.xml'

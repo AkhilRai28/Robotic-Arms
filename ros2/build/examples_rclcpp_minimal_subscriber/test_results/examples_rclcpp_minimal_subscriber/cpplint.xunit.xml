@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_minimal_subscriber.cpplint"
+  tests="10"
+  failures="0"
+  errors="0"
+  time="0.110"
+>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/content_filtering.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/lambda.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/member_function.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_type_adapter.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_unique_network_flow_endpoints.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/not_composable.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/static_wait_set_subscriber.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/time_triggered_wait_set_subscriber.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/wait_set_subscriber.cpp"
+    classname="examples_rclcpp_minimal_subscriber.cpplint"/>
+  <system-out>Checked files:
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/content_filtering.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/lambda.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/member_function.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_type_adapter.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_unique_network_flow_endpoints.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/not_composable.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/static_wait_set_subscriber.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/time_triggered_wait_set_subscriber.cpp
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_subscriber/wait_set_subscriber.cpp</system-out>
+</testsuite>

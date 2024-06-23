@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/composition/minimal_composition':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml
+
+No code style divergence in file 'include/minimal_composition/publisher_node.hpp'
+
+No code style divergence in file 'include/minimal_composition/subscriber_node.hpp'
+
+No code style divergence in file 'include/minimal_composition/visibility.h'
+
+No code style divergence in file 'src/composed.cpp'
+
+No code style divergence in file 'src/publisher_node.cpp'
+
+No code style divergence in file 'src/standalone_publisher.cpp'
+
+No code style divergence in file 'src/standalone_subscriber.cpp'
+
+No code style divergence in file 'src/subscriber_node.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml'

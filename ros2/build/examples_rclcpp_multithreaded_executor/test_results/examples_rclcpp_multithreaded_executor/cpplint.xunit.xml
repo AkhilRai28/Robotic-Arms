@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_multithreaded_executor.cpplint"
+  tests="1"
+  failures="0"
+  errors="0"
+  time="0.051"
+>
+  <testcase
+    name="/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp"
+    classname="examples_rclcpp_multithreaded_executor.cpplint"/>
+  <system-out>Checked files:
+* /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp</system-out>
+</testsuite>

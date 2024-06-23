@@ -1,0 +1,42 @@
+-- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml
+
+Using '--root=/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include' argument
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/random_listener.hpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/random_talker.hpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/talker.hpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/include/wait_set/visibility.h
+
+Using '--root=/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src' argument
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/executor_random_order.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/listener.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/static_wait_set.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/talker.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/thread_safe_wait_set.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set_composed.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set_random_order.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set_topics_and_timer.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/wait_set/src/wait_set_topics_with_different_rates.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml'

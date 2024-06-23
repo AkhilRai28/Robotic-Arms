@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/executors/cbg_executor':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml
+
+No code style divergence in file 'include/examples_rclcpp_cbg_executor/ping_node.hpp'
+
+No code style divergence in file 'include/examples_rclcpp_cbg_executor/pong_node.hpp'
+
+No code style divergence in file 'src/examples_rclcpp_cbg_executor/ping_node.cpp'
+
+No code style divergence in file 'src/examples_rclcpp_cbg_executor/pong_node.cpp'
+
+No code style divergence in file 'src/examples_rclcpp_cbg_executor/utilities.hpp'
+
+No code style divergence in file 'src/ping.cpp'
+
+No code style divergence in file 'src/ping_pong.cpp'
+
+No code style divergence in file 'src/pong.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/uncrustify.xunit.xml'

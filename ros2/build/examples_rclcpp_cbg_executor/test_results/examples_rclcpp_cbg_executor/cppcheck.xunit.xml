@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_cbg_executor.cppcheck"
+  tests="8"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="8"
+>
+  <testcase
+    name="include/examples_rclcpp_cbg_executor/ping_node.hpp"
+    classname="examples_rclcpp_cbg_executor.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/examples_rclcpp_cbg_executor/pong_node.hpp"
+    classname="examples_rclcpp_cbg_executor.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/examples_rclcpp_cbg_executor/ping_node.cpp"
+    classname="examples_rclcpp_cbg_executor.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/examples_rclcpp_cbg_executor/pong_node.cpp"
+    classname="examples_rclcpp_cbg_executor.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/examples_rclcpp_cbg_executor/utilities.hpp"
+    classname="examples_rclcpp_cbg_executor.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/ping.cpp"
+    classname="examples_rclcpp_cbg_executor.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/ping_pong.cpp"
+    classname="examples_rclcpp_cbg_executor.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/pong.cpp"
+    classname="examples_rclcpp_cbg_executor.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

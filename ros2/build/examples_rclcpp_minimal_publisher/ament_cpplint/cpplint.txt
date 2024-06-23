@@ -1,0 +1,22 @@
+-- run_test.py: invoking following command in '/home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_publisher':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml
+
+Using '--root=..' argument
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_publisher/lambda.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_publisher/member_function.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_publisher/member_function_with_type_adapter.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_publisher/member_function_with_unique_network_flow_endpoints.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_publisher/member_function_with_wait_for_all_acked.cpp
+
+Done processing /home/akhil-rover/rover/example_ws/src/src/examples/rclcpp/topics/minimal_publisher/not_composable.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/akhil-rover/rover/example_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml'

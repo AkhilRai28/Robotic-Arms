@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="examples_rclcpp_multithreaded_executor.uncrustify"
+  tests="1"
+  failures="0"
+  errors="0"
+  time="0.005"
+>
+  <testcase
+    name="multithreaded_executor.cpp"
+    classname="examples_rclcpp_multithreaded_executor.uncrustify"/>
+  <system-out>Checked files:
+* multithreaded_executor.cpp</system-out>
+</testsuite>
