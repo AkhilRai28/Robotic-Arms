@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>launch_testing_examples</name>
+  <version>0.15.1</version>
+  <description>Examples of simple launch tests</description>
+  <maintainer email="sloretz@openrobotics.org">Shane Loretz</maintainer>
+  <maintainer email="aditya.pande@openrobotics.org">Aditya Pande</maintainer>
+  <license>Apache License 2.0</license>
+
+  <author email="aditya.pande@openrobotics.org">Aditya Pande</author>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <test_depend>launch</test_depend>
+  <test_depend>launch_ros</test_depend>
+  <test_depend>launch_testing</test_depend>
+  <test_depend>launch_testing_ros</test_depend>
+  <test_depend>rclpy</test_depend>
+  <test_depend>ros2bag</test_depend>
+  <test_depend>rosbag2_transport</test_depend>
+  <test_depend>std_msgs</test_depend>
+  <test_depend>demo_nodes_cpp</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
